@@ -1,0 +1,193 @@
+body{
+    text-align:right;
+    background-color: rgb(191, 231, 205);
+    margin: 10px;
+}
+#header {
+    background: linear-gradient(to right,rgb(45, 145, 63),rgba(45, 145, 63, 0.4));
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 30px;  
+    display: flex;  
+    align-items: center;  
+    flex-direction:row-reverse;
+    box-shadow: 0 0 15px 0 black;  
+    font-size: large;
+}
+#header a{
+    color: white;  
+    text-decoration: none;
+    margin: 20px;
+} 
+
+#shopping-container{
+    display: flex;
+    margin: 5px;
+}
+
+#shopping-container span{
+    user-select: none;
+    position:relative;
+    background:red;
+    width: 1.0rem;
+    height: 1.0rem;
+    font-size: 0.8rem;
+    border-radius: 50%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    top:.2rem;
+    right:0.3rem
+}
+
+#shopping-container span:not(.animated-counter){
+    display:none;
+}
+#shopping-container span .animated-counter{
+    animation: count 0.4s ease-in-out;
+}
+@keyframes count{
+    from{
+        top: .2rem;
+        right: -1.8rem;
+        transform: rotate(120deg);
+    }
+    25%{
+        top: -.2rem;
+        right: -1.2rem;
+        transform: rotate(80deg); 
+    }
+    50%{
+        top: -.4rem;
+        right: -.6rem;
+        transform: rotate(60deg); 
+    }
+    75%{
+        top: -.4rem;
+        right: 0rem;
+        transform: rotate(30deg); 
+    }
+    to{
+        top: .2rem;
+        right: .3rem;
+        transform: rotate(0deg); 
+    }
+}
+
+.Subject{
+    display:flex;
+    background: linear-gradient(to right,rgb(141, 179, 210),rgba(141, 179, 210, 0.5));
+    margin: 5px;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+    align-items: center;
+}
+.Subject-Name{
+    width: 150px; 
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+}
+.Subject-Price{
+    width: 30px; 
+    margin-right: 3px;
+    padding: 5px;
+}
+.Subject-Currency{
+    width: 110px; 
+    padding: 5px;
+}
+.Button{
+    width: 70px;
+    margin: 10px;
+    align-self: stretch; 
+}
+
+#bigContainer{
+    display:flex;
+    margin-left: 20%;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+#Subjects-Container{
+    display:flex;
+    background-color: white;    
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-end;
+    border:2px solid;
+    border-color: rgb(7, 145, 76);
+}
+
+#chosenContainer{
+    display:flex;
+    background-color: white;
+    border:2px solid;
+    border-color: rgb(7, 145, 76);
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+
+#chosenTable{
+    border-collapse: collapse;
+    margin: 25px 5px;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+#chosenTable thead tr{
+    background-color: #009879;
+    color: white;
+    text-align: right;
+    font-weight: bold;
+}
+
+#chosenTable th, #chosenTable td{
+    padding: 12px 15px;
+}
+
+#chosenTable tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+#chosenTable tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+#chosenTable tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+    border-top: 2px solid #009879;
+    background-color: rgb(236, 196, 94);
+    font-size: 1.2em;
+}
+
+#addingData{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: blanchedalmond;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 400px;
+
+}
+.addingDataChild{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items:stretch;
+    justify-content: space-between;
+    margin: 5px 5px 5px 5px;
+    min-width:400px;
+}
+
+
+
+

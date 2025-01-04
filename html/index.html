@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type ="text/css" href = "../css/style.css">
+        <title>معهد التدريس عبر الإنترنت</title>
+    </head>
+    <body>
+        <h1 class = "Text">
+            عنوان 1
+        </h1>
+        <div id = "header"> 
+            <div id = "shopping-container">
+                <span id="counter">1</span>
+                <i data-feather="shopping-cart"></i>
+            </div>     
+        </div> 
+        <p class = "Text">
+             ... تعريف الموقع
+        </p>
+        <h2 class = "Text">
+            طريقة التسجيل
+        </h2>
+        <p class = "Text">
+            طريقة التسجيل
+        </p>
+        <h3 class ="Text">المواضيع</h3>
+        <div id ="bigContainer">
+            <div id="Subjects-Container">
+                <div class="Subject"><p class="Subject-Name"><b>المادة</b></p><p class="Subject-Name"><b>السعر</b></p></div>
+                <div class="Subject"><p class="Subject-Name">كيمياء عضوية (1)</p><p class="Subject-Price"> 500 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button1" onclick="subjectRegistration(Button1,1)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 200 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button2" onclick="subjectRegistration(Button2,2)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">كيمياء تحليلية</p><p class="Subject-Price"> 500 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button3" onclick="subjectRegistration(Button3,3)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء تحليلية</p><p class="Subject-Price"> 200 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button4" onclick="subjectRegistration(Button4,4)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">كيمياء عضوية (2)</p><p class="Subject-Price"> 500 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button5" onclick="subjectRegistration(Button5,5)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">مايكروبيولوجي (1)</p><p class="Subject-Price"> 150 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button6" onclick="subjectRegistration(Button6,6)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 150 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button7" onclick="subjectRegistration(Button7,7)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 150 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button8" onclick="subjectRegistration(Button8,8)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 150 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button9" onclick="subjectRegistration(Button9,9)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 500 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button10" onclick="subjectRegistration(Button10,10)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 200 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button11" onclick="subjectRegistration(Button11,11)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 300 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button12" onclick="subjectRegistration(Button12,12)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 700 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button13" onclick="subjectRegistration(Button13,13)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 100 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button14" onclick="subjectRegistration(Button14,14)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 700 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button15" onclick="subjectRegistration(Button15,15)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 500 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button16" onclick="subjectRegistration(Button16,16)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 500 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button17" onclick="subjectRegistration(Button17,17)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 100 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button18" onclick="subjectRegistration(Button18,18)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 100 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button19" onclick="subjectRegistration(Button19,19)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 500 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button20" onclick="subjectRegistration(Button20,20)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 500 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button21" onclick="subjectRegistration(Button21,21)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 600 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button22" onclick="subjectRegistration(Button22,22)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 600 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button23" onclick="subjectRegistration(Button23,23)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 600 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button24" onclick="subjectRegistration(Button24,24)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 700 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button25" onclick="subjectRegistration(Button25,25)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 700 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button26" onclick="subjectRegistration(Button26,26)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 700 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button27" onclick="subjectRegistration(Button27,27)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 500 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button28" onclick="subjectRegistration(Button28,28)">تسجيل</button></div>
+                <div class="Subject"><p class="Subject-Name">عملي كيمياء عضوية (1)</p><p class="Subject-Price"> 200 </p><p class="Subject-Currency"> ريال سعودي </p><button class="Button" id="Button29" onclick="subjectRegistration(Button29,29)">تسجيل</button></div>
+            </div>
+            <div id="chosenContainer">
+                <table id="chosenTable">
+                    <thead>
+                        <tr>
+                            <th>الغاء</th>
+                            <th>السعر</th>
+                            <th>المواد المختارة</th>
+                            <th>#</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <div id="addingData">
+                    <div class="addingDataChild"><div>الاسم</div><div><input type="text" name="name" id ="name"></div></div>
+                    <div class="addingDataChild"><div>رقم التلفون</div><div><input type="text" name="phoneNumber" id ="phoneNumber"></div></div>
+                    <div class="addingDataChild"><div>رقم تلفون الوالد (ولي الامر)</div><div><input type="text" name="parentPhoneNumber" id ="parentPhoneNumber"></div></div>
+                    <div class="addingDataChild"><button>تأكيد التسجيل</button></div>
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script>
+            feather.replace()
+        </script>
+        
+    </body>
+
+    <script src="../js/script.js"></script> 
+</html>
